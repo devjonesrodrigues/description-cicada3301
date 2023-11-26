@@ -7,7 +7,7 @@
 
 body {
     background: #000;
-    margin: 0px 500px ;
+    margin: 0px 200px ;
 }
 
 #container {
@@ -15,28 +15,80 @@ body {
     color: rgb(114, 188, 29);
 }
 
+.line-break {
+    background-color: #6c6767;
+    width: 1302px;
+    height: 3px;
+    margin: 33px 0 33px 0;
+}
+
 .main-title {
-    font-size: 40px;
+    font-size: 75px;
     margin: 0 0 20px 0;
     text-align: center;
     text-decoration: underline;
 }
 
+#logo-cicada {
+    margin: 0 0 0 349px;
+    width: 591px;
+}
+
 #main-h2, .h2 {
-    font-size: 30px;
+    font-size: 40px;
     margin: 0 0 20px;
+    text-decoration: underline;
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 30px;
     margin: 30px 0 10px 0;
+    text-decoration: underline;
 }
 
 .paragraph {
     margin: 0 0 20px 0;
-    font-size: 20px;
+    font-size: 30px;
 }
 
-#first-enigma {
-    
+#first-riddle {
+    width: 722px;
+    border: 2px solid #6c6767;    
+}
+
+#cicada-img {
+    width: 980px;
+    margin: 16px 0 37px 145px;
+}
+
+.cicada-message {
+    font-style: italic;
+    font-size: 30px;
+    border: 2px solid #6c6767;
+    padding: 28px;
+    margin: 0 0 22px 0;
+}
+
+#second-riddle {
+    width: 650px;
+    margin: 10px 0 33px 332px;
+}
+
+#cicada-qrcode {
+    margin: 14px 0 14px 343px;
+}
+
+.cicada-message1, .border-cicada {
+    border: 5px outset  rgb(114, 188, 29);
+}
+
+.border-cicada {
+    padding: 20px;
+    margin: 31px 0 0 0;
+}
+
+#new-messagem {
+    width: 654px;
+    margin: 15px 0 25px 345px;
+    border: 2px solid #6c6767;
 }
